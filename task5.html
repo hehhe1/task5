@@ -21,17 +21,17 @@
     .list-head{width: 100%;height: 51px;padding-left: 10px;color:#000;box-sizing:border-box;border-bottom :1px solid #ccc;}
     .list-head span{border-left: 5px solid #5fc0cd;padding-left: 10px;line-height: 51px;}
     .content{    height: auto;}
-    .list-content{width: 95%;margin:0 auto;height: 255px;}
-    .list-content ul{width: 100%;box-sizing:border-box;padding:0;}
-    .list-content li{list-style: none;border-bottom: 1px solid #ccc;line-height: 51px;position: relative;}
-    .list-content li img{width:14px; padding-right: 10px;padding-left: 8px;}
-    .list-content li font{color: #ccc;padding-right: 20px;border-right: 1px solid #ccc;position: absolute;top:50%;left: 0;}
-    .list-content li span{margin-left: 20px;font-size: 13px;}
+    .list-content{width: 95%;margin:0 auto;}
+    .list-content ul{width: 100%;box-sizing:border-box;padding:0;    margin: 0;}
+    .list-content li{list-style: none;border-bottom: 1px solid #ccc;position: relative;padding:20px 0;width: 100%;line-height: 20px}
+    .list-content li img{width: 14px;padding-right: 10px;}
     footer {position: fixed;bottom: 0;left: 0;display: flex;width: 100%;background-color: white;}
     footer button{color:  #5fc0cd;height:45px;line-height: 45px;text-align: center;width: flex:1;width: 100%; font-size: 16px;border-radius: 7px;border:0;margin-bottom: 10px;}
     .bt2{margin-left: 10px;color: white;background-color:#5fc0cd;}
     .bt1{background-color: #fff;border:2px solid #5fc0cd;}
     main{position: absolute;top: 60px;left: 0;right: 0;bottom:63px;overflow-y: auto;overflow-x: hidden;background: #fff;}
+    .tou{color:#ccc;width: 100px;border-right: 1px solid #ccc;line-height: 14px;position: absolute;top: 38%;}
+    .con{ margin-left: 123px;}
 </style>
 <body>
     <header>
@@ -53,11 +53,11 @@
             </div>
             <div class="list-content">
                 <ul>
-                    <li><img src="images/icon_star.png">住家<img src="images/icon_star.png">不包餐</li>
-                    <li><font>从业年限</font><span>0~3年</span></li>
-                    <li><font>工作时间</font><span>全天</span></li>
-                    <li><font>服务价格</font><span>25元/小时</span></li>
-                    <li><font>自我介绍</font><span>可以洗衣做饭照顾老人，可以洗衣做饭照顾老人，可以洗衣做饭照顾老人，可以洗衣做饭照顾老人，可以洗衣做饭照顾老人</span></li>
+                    <li ><img src="images/icon_star.png">住家<img src="images/icon_star.png" style="margin-left:10px;">不包餐</li>
+                    <li><div class="tou">从业年限</div><div class="con">0~3年</div></li>
+                    <li><div class="tou">工作时间</div><div class="con">全天</div></li>
+                    <li><div class="tou">服务价格</div><div class="con">25元/小时</div></li>
+                    <li><div class="tou">自我介绍</div><div class="con">可以洗衣做饭照顾老人，可以洗衣做饭照顾老人，可以洗衣做饭照顾老人，可以洗衣做饭照顾老人，可以洗衣做饭照顾老人</div></li>
                 </ul>
             </div>
         </div>
